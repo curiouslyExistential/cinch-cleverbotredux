@@ -51,7 +51,7 @@ The following commands are available:
 Install the gem and load it in your Cinch bot:
 
     require "cinch"
-    require "cinch/plugins/cleverbot"
+    require "cinch/plugins/cleverbotredux"
 
     bot = Cinch::Bot.new do
       configure do |c|
