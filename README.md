@@ -1,5 +1,7 @@
 # Cinch-CleverBotRedux
 
+[![Gem Version](https://badge.fury.io/rb/cinch-cleverbotredux.svg)](http://badge.fury.io/rb/cinch-cleverbotredux)
+
 ## Description
 
 A very simple plugin which provides an interface between the Cleverbot webserver, and Cinch. It comes with a number of features, including the option for Channel operators to disable the bot's CleverBot functions for that specific channel.
@@ -61,5 +63,3 @@ Install the gem and load it in your Cinch bot:
     end
 
     bot.start
-https://badge.fury.io/rb/cinch-cleverbotredux.svg
-
