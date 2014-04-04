@@ -45,7 +45,8 @@ The following commands are available:
 	!globalenable
 	This command contains the same permissions as globaldisable. 
 	It is used to re-enable the interface. 
-	Please note that this will not reset any restriction that a channel operator has imposed on the bot with the previous commands.
+	Please note that this will not reset any restriction that a channel operator has imposed on the bot
+	with the previous commands.
 
 Install the gem and load it in your Cinch bot:
 
