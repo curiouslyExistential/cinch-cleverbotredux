@@ -29,18 +29,18 @@ You can also get the most up to date code directly from Github
 
 The following commands are available:
 
-!disablechatter
-This command, when used by anyone with Voice or higher, will disable the bot's CleverBot interface on that specific channel.
+	!disablechatter
+	This command, when used by anyone with Voice or higher, will disable the bot's CleverBot interface on that specific channel.
 
-!enablechatter
-This is used to re-enable the bot's CleverBot interface on said channel. It has the same permissions as the disable command.
+	!enablechatter
+	This is used to re-enable the bot's CleverBot interface on said channel. It has the same permissions as the disable command.
 
-!globaldisable
-This command can only be used by the botmaster (This must be changed in the plugin's coding. I made sure that it's easy to fight, right up top.)
+	!globaldisable
+	This command can only be used by the botmaster (This must be changed in the plugin's coding. I made sure that it's easy to fight, right up top.)
 This command will globally disable the CleverBot interface.
 
-!globalenable
-This command contains the same permissions as globaldisable. It is used to re-enable the interface. Please note that this will not reset any restriction that a channel operator has imposed on the bot with the previous commands.
+	!globalenable
+	This command contains the same permissions as globaldisable. It is used to re-enable the interface. Please note that this will not reset any restriction that a channel operator has imposed on the bot with the previous commands.
 
 Install the gem and load it in your Cinch bot:
 
