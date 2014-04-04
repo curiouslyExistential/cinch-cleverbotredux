@@ -61,4 +61,5 @@ Install the gem and load it in your Cinch bot:
     end
 
     bot.start
+https://badge.fury.io/rb/cinch-cleverbotredux.svg
 
