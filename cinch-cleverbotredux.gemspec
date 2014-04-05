@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "cinch-cleverbotredux"
-  s.version     = "1.0"
+  s.version     = "1.1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Dorion Beaudin"]
   s.email       = ["dorionbeaudin@live.ca"]
