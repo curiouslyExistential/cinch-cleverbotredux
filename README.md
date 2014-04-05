@@ -52,24 +52,24 @@ The following commands are available:
 
 Install the gem and load it in your Cinch bot:
 
-    	require 'cinch'
+	require 'cinch'
 	require 'cinch/plugins/cleverbotredux'
 
 	bot = Cinch::Bot.new do
-  	configure do |c|
-    	c.nick = 'cleverBot'
-	c.user = 'pcc31'
-    	c.server = 'irc.example.org'
-	c.channels = ['#example']
-	c.plugins.plugins = [CleverBotRedux]
-	c.plugins.options = {
-		CleverBotRedux => {
-	    		:pesternetwork => false,
-				:defaultnick => c.nick
-			}
-	  	}
-		end
-  	   end
+  	  configure do |c|
+	  c.nick = 'cleverBot'
+	  c.user = 'pcc31'
+	  c.server = 'irc.example.org'
+	  c.channels = ['#example']
+	  c.plugins.plugins = [CleverBotRedux]
+	  c.plugins.options = {
+	    CleverBotRedux => {
+	      :pesternetwork => false,
+	      :defaultnick => c.nick
+	      }
+	    }
+	    end
+	  end
 	$end
 
 	bot.start
