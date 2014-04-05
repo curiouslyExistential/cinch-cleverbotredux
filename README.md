@@ -52,14 +52,26 @@ The following commands are available:
 
 Install the gem and load it in your Cinch bot:
 
-    require "cinch"
-    require "cinch/plugins/cleverbotredux"
+    	require 'cinch'
+	require 'cinch/plugins/cleverbotredux'
 
-    bot = Cinch::Bot.new do
-      configure do |c|
-        # Add all required options here
-        c.plugins.plugins = [CleverBotRedux] # Optionally add more plugins
-      end
-    end
+	bot = Cinch::Bot.new do
+  	configure do |c|
+    	c.nick = 'cleverBot'
+	c.user = 'pcc31'
+    	c.server = 'irc.example.org'
+	c.channels = ['#example']
+	c.plugins.plugins = [CleverBotRedux]
+	c.plugins.options = {
+		CleverBotRedux => {
+	    		:pesternetwork => false,
+				:defaultnick => c.nick
+			}
+	  	}
+		end
+  	   end
+	$end
 
-    bot.start
+	bot.start
+
+Note that you can pass the 'pesternetwork' argument, and the 'defaultnick' argument. This is for users of the Pesterchum irc server, that uses a different structure and a lot of colour codes. If you intend to use this with pesterchum, set this value to false, and also make sure that c.user is set to pcc31.
