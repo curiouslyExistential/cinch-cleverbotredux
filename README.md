@@ -74,4 +74,4 @@ Install the gem and load it in your Cinch bot:
 
 	bot.start
 
-Note that you can pass the 'pesternetwork' argument, and the 'defaultnick' argument. This is for users of the Pesterchum irc server, that uses a different structure and a lot of colour codes. If you intend to use this with pesterchum, set this value to false, and also make sure that c.user is set to pcc31.
+Note that you can pass the 'pesternetwork' argument, and the 'defaultnick' argument. This is for users of the Pesterchum irc server, that uses a different structure and a lot of colour codes. If you intend to use this with pesterchum, set this value to true, and also make sure that c.user is set to pcc31.
